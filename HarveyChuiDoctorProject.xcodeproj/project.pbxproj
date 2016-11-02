@@ -15,6 +15,7 @@
 		502111291DA85A3300677174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502111271DA85A3300677174 /* LaunchScreen.storyboard */; };
 		502111341DA85A3300677174 /* HarveyChuiDoctorProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502111331DA85A3300677174 /* HarveyChuiDoctorProjectTests.swift */; };
 		5021113F1DA85A3300677174 /* HarveyChuiDoctorProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021113E1DA85A3300677174 /* HarveyChuiDoctorProjectUITests.swift */; };
+		5021114D1DA89A0C00677174 /* appointmentdetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021114C1DA89A0C00677174 /* appointmentdetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5021113A1DA85A3300677174 /* HarveyChuiDoctorProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarveyChuiDoctorProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5021113E1DA85A3300677174 /* HarveyChuiDoctorProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarveyChuiDoctorProjectUITests.swift; sourceTree = "<group>"; };
 		502111401DA85A3300677174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5021114C1DA89A0C00677174 /* appointmentdetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appointmentdetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5021111B1DA85A3300677174 /* AppDelegate.swift */,
 				5021111D1DA85A3300677174 /* ViewController.swift */,
+				5021114C1DA89A0C00677174 /* appointmentdetails.swift */,
 				5021111F1DA85A3300677174 /* Main.storyboard */,
 				502111251DA85A3300677174 /* Assets.xcassets */,
 				502111271DA85A3300677174 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5021114D1DA89A0C00677174 /* appointmentdetails.swift in Sources */,
 				5021111E1DA85A3300677174 /* ViewController.swift in Sources */,
 				502111241DA85A3300677174 /* HarveyChuiDoctorProject.xcdatamodeld in Sources */,
 				5021111C1DA85A3300677174 /* AppDelegate.swift in Sources */,
